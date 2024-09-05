@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-29T18:38:05.934Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2943999000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.berforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with valid credentials.",
+        "description": "",
+        "id": "codefios-login-page-functionlity-validation;user-should-be-able-to-login-with-valid-credentials.",
+        "after": [
+          {
+            "result": {
+              "duration": 190944000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.closeTheBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1081757500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_is_on_codefios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3094990300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@codefios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3066805800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12300661800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the signin button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_on_the_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 412646600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User lands on the dashboard page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_lands_on_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CodeFios"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@CodeFios-Scenario1"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios login page functionlity validation",
+    "description": "",
+    "id": "codefios-login-page-functionlity-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/CodeFiosLogin.feature",
+    "tags": [
+      {
+        "name": "@CodeFios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]
