@@ -64,6 +64,7 @@ public class LoginStepDefinition extends TestBase {
 	    	loginPage.enterPassword(database.getDataFromDb("user_password"));
 	    }else {
 	    	System.out.println("unable to retrieve login data");
+	    	System.out.println("making changes for github");
 	    }
 	    
 //	    switch(loginData) {
